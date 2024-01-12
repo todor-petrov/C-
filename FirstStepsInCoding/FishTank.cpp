@@ -8,15 +8,11 @@ int main()
     int length, width, height;
     double percent;
 
-    cin >> length;
-    cin >> width;
-    cin >> height;
-    cin >> percent;
+    cin >> length >> width >> height >> percent;
 
-    double volume = length * width * height;
-    double liters = volume / 1000;
-    double busySpace = percent / 100;
-    double neededWater = liters * (1 - busySpace);
+    int volume = (length * width * height);
+    double volumeInLiters = volume * 0.001;
+    double neededWater = volumeInLiters * (1 - (percent * 0.01));
 
     cout << neededWater << endl;
 }
