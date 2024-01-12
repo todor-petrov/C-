@@ -6,9 +6,7 @@ using std::endl;
 int main()
 {
     int currentBookPages, pagesPerHour, days;
-    cin >> currentBookPages;
-    cin >> pagesPerHour;
-    cin >> days;
+    cin >> currentBookPages >> pagesPerHour >> days;
 
     int hoursPerDay = (currentBookPages / pagesPerHour) / days;
 

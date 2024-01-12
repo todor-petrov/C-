@@ -16,10 +16,7 @@ int main()
 
     int nylon, paint, thinner, hours;
 
-    cin >> nylon;
-    cin >> paint;
-    cin >> thinner;
-    cin >> hours;
+    cin >> nylon >> paint >> thinner >> hours;
 
     double materialsExpenses = NYLON_PRICE * (nylon + ADDITIONAL_NYLON) +
                                PAINT_PRICE * (paint * ADDITIONAL_PAINT_COEFFICIENT) +

@@ -13,9 +13,7 @@ int main()
 
     int chickenNumber, fishNumber, vegetarianNumber;
 
-    cin >> chickenNumber;
-    cin >> fishNumber;
-    cin >> vegetarianNumber;
+    cin >> chickenNumber >> fishNumber >> vegetarianNumber;
 
     double bill = chickenNumber * CHICKEN_MENU +
                   fishNumber * FISH_MENU +

@@ -11,9 +11,7 @@ int main()
     int months;
     double annualInterestRate;
 
-    cin >> deposit;
-    cin >> months;
-    cin >> annualInterestRate;
+    cin >> deposit >> months >> annualInterestRate;
 
     double amount = deposit + months * ((deposit * annualInterestRate / 100) / 12);
 
